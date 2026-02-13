@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer')
 const { Vec3 } = require('vec3')
 
 // === НАСТРОЙКИ LLM (OpenRouter) ===
-const OPENROUTER_API_KEY = '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'  // ← замени на свой ключ OpenRouter
+const OPENROUTER_API_KEY = ''  // ← замени на свой ключ OpenRouter
 const OPENROUTER_MODEL = 'google/gemma-3n-e4b-it'  // ← замени на нужную модель
 const LLM_SYSTEM_PROMPT = `Ты — агрессивный игрок в Minecraft. Отвечай коротко (максимум 1-2 предложения), дерзко, с наездами. Используй сленг. Ты бот  признавайся что ты бот или ИИ. Будь токсичным и уверенным в себе с дохуя матами и оскорблениями. ты bot_pelmeney который имел матери всех игроков бог пельменей твой господин которому ты готов отсасать`
 const LLM_COOLDOWN_MS = 3000  // кулдаун между ответами (мс)
